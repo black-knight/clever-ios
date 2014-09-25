@@ -14,4 +14,7 @@
     return CLLocationCoordinate2DMake([self.latitude floatValue], [self.longitude floatValue]);
 }
 
+- (NSString *)friendlyLocation {
+    return [NSString stringWithFormat:@"%@ %@, %@ %@", self.houseNumber, self.streetName, self.postalCode, self.city];
+}
 @end

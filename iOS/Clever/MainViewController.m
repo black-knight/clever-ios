@@ -56,7 +56,7 @@ static Poi *globalPoi;
 }
 
 - (NSString *)subtitle {
-    return self.location.description;
+    return [self.location friendlyLocation];
 }
 
 - (MKAnnotationView *)createView {

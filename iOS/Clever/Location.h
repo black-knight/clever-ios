@@ -14,7 +14,7 @@
 - (CLLocationCoordinate2D)coordinate;
 
 @property (nonatomic, strong) NSString *name;
-@property (nonatomic, strong) NSString *description;
+@property (nonatomic, strong) NSString *mDescription;
 @property (nonatomic, strong) NSString *accessInfo;
 @property (nonatomic, strong) NSString *icon;
 @property (nonatomic, strong) NSNumber *latitude;
@@ -28,5 +28,7 @@
 @property (nonatomic, strong) NSString *payLink;
 @property (nonatomic, strong) NSString *payment;
 @property (nonatomic, strong) NSString *pictureUrl;
+
+- (NSString *)friendlyLocation;
 
 @end

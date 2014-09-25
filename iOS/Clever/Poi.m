@@ -67,7 +67,7 @@
     Location *location = [Location new];
 
     location.name = [self stringFromDict:dict key:@"name"];
-    location.description = [self stringFromDict:dict key:@"description"];
+    location.mDescription = [self stringFromDict:dict key:@"description"];
     location.accessInfo = [self stringFromDict:dict key:@"accessInfo"];
     location.icon = [self stringFromDict:dict key:@"icon"];
     location.latitude = [self numberFromDict:dict key:@"latitude"];
